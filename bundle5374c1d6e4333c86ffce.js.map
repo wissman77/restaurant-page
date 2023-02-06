@@ -1,0 +1,1 @@
+{"version":3,"file":"bundle5374c1d6e4333c86ffce.js","mappings":"AAAAA,QAAQC,IAAI","sources":["webpack://resturant-page/./src/index.js"],"sourcesContent":["console.log('webpack test passed!');\n"],"names":["console","log"],"sourceRoot":""}
