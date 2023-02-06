@@ -1,0 +1,40 @@
+/* ------------------ NAV STYLES--------------------------- */
+.navbar {
+  background-color: var(--primary-color);
+  width: 100%;
+}
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  justify-content: center;
+}
+
+.navbar ul li {
+  display: grid;
+  align-items: center;
+  width: calc(100% / 4);
+  text-align: center;
+}
+
+.navbar ul li a {
+  font-weight: bold;
+  text-decoration: none;
+  background-color: var(--primary-color);
+  padding: 10px 30px;
+  color: var(--seconday-color);
+  transition: all 0.3s ease;
+}
+
+.navbar ul li a:hover {
+  color: #000;
+  background: var(--gold-color);
+  transform: rotate(-1deg) scale(1.2);
+}
+
+.navbar ul li a.active {
+  color: var(--primary-color);
+  background-color: var(--seconday-color);
+  font-weight: bold;
+}
