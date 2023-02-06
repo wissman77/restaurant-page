@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+:root {
+  --primary-color: #000;
+  --seconday-color: #fff;
+  --gold-color: gold;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+  letter-spacing: 1.7px;
+}
+
+/* ------------------ UTILITY STYLES--------------------------- */
+
+/* ------------------ HOME STYLES--------------------------- */
+
+#content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: auto;
+}
+
+/* ------------------ HEADER STYLES--------------------------- */
+#header {
+  width: 100%;
+  background-color: var(--primary-color);
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+#header img {
+  display: block;
+  width: 30px;
+}
+
+#header h1 {
+  color: var(--seconday-color);
+  font-weight: bold;
+  font-size: 2.5rem;
+  text-shadow: rgba(244, 248, 6, 0.877) 0 2px 20px;
+  font-family: 'Dancing Script', cursive;
+  padding: 20px 0;
+  text-align: center;
+}
