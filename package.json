@@ -1,0 +1,31 @@
+{
+  "name": "resturant-page",
+  "version": "1.0.0",
+  "description": "dynamically rendered simple resturant homepage using Javascript an css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wissman77/resturant-page.git"
+  },
+  "keywords": [
+    "resturant",
+    "javascript",
+    "dynamically",
+    "css",
+    "wepack",
+    "eslint"
+  ],
+  "author": "Wissam Mansour",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wissman77/resturant-page/issues"
+  },
+  "homepage": "https://github.com/wissman77/resturant-page#readme",
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
