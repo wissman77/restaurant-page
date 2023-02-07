@@ -1,0 +1,25 @@
+/* ------------------ ABOUT STYLES--------------------------- */
+
+#about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  padding: 10px;
+}
+
+.description {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  height: 70vh;
+}
+
+.description p::first-letter {
+  color: var(--gold-color);
+  font-size: 2rem;
+  font-weight: bold;
+}
