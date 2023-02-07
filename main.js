@@ -73,7 +73,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "/* ------------------ FOOTER STYLES--------------------------- */\n\nfooter {\n  background-color: var(--primary-color);\n  color: var(--seconday-color);\n  width: 100%;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  height: 100px;\n  font-size: 0.8rem;\n}\n\nfooter a {\n  color: #929191;\n  text-decoration: none;\n}\n", "",{"version":3,"sources":["webpack://./src/styles/footer.css"],"names":[],"mappings":"AAAA,gEAAgE;;AAEhE;EACE,sCAAsC;EACtC,4BAA4B;EAC5B,WAAW;EACX,aAAa;EACb,sBAAsB;EACtB,mBAAmB;EACnB,uBAAuB;EACvB,aAAa;EACb,iBAAiB;AACnB;;AAEA;EACE,cAAc;EACd,qBAAqB;AACvB","sourcesContent":["/* ------------------ FOOTER STYLES--------------------------- */\n\nfooter {\n  background-color: var(--primary-color);\n  color: var(--seconday-color);\n  width: 100%;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  height: 100px;\n  font-size: 0.8rem;\n}\n\nfooter a {\n  color: #929191;\n  text-decoration: none;\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "/* ------------------ FOOTER STYLES--------------------------- */\n\nfooter {\n  background-color: var(--primary-color);\n  color: var(--seconday-color);\n  width: 100%;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  height: 100px;\n  font-size: 0.8rem;\n  text-align: center;\n}\n\nfooter a {\n  color: #929191;\n  text-decoration: none;\n}\n", "",{"version":3,"sources":["webpack://./src/styles/footer.css"],"names":[],"mappings":"AAAA,gEAAgE;;AAEhE;EACE,sCAAsC;EACtC,4BAA4B;EAC5B,WAAW;EACX,aAAa;EACb,sBAAsB;EACtB,mBAAmB;EACnB,uBAAuB;EACvB,aAAa;EACb,iBAAiB;EACjB,kBAAkB;AACpB;;AAEA;EACE,cAAc;EACd,qBAAqB;AACvB","sourcesContent":["/* ------------------ FOOTER STYLES--------------------------- */\n\nfooter {\n  background-color: var(--primary-color);\n  color: var(--seconday-color);\n  width: 100%;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  height: 100px;\n  font-size: 0.8rem;\n  text-align: center;\n}\n\nfooter a {\n  color: #929191;\n  text-decoration: none;\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -179,7 +179,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "/* ------------------ NAV STYLES--------------------------- */\n.navbar {\n  background-color: var(--primary-color);\n  width: 100%;\n}\n\n.navbar ul {\n  display: flex;\n  align-items: center;\n  list-style: none;\n  justify-content: center;\n}\n\n.navbar ul li {\n  display: grid;\n  align-items: center;\n  width: calc(100% / 4);\n  text-align: center;\n}\n\n.navbar ul li a {\n  font-weight: bold;\n  text-decoration: none;\n  background-color: var(--primary-color);\n  padding: 10px 30px;\n  color: var(--seconday-color);\n  transition: all 0.3s ease;\n}\n\n.navbar ul li a:hover {\n  color: #000;\n  background: var(--gold-color);\n  transform: rotate(-1deg) scale(1.2);\n}\n\n.navbar ul li a.active {\n  color: var(--primary-color);\n  background-color: var(--seconday-color);\n  font-weight: bold;\n}\n", "",{"version":3,"sources":["webpack://./src/styles/navbar.css"],"names":[],"mappings":"AAAA,6DAA6D;AAC7D;EACE,sCAAsC;EACtC,WAAW;AACb;;AAEA;EACE,aAAa;EACb,mBAAmB;EACnB,gBAAgB;EAChB,uBAAuB;AACzB;;AAEA;EACE,aAAa;EACb,mBAAmB;EACnB,qBAAqB;EACrB,kBAAkB;AACpB;;AAEA;EACE,iBAAiB;EACjB,qBAAqB;EACrB,sCAAsC;EACtC,kBAAkB;EAClB,4BAA4B;EAC5B,yBAAyB;AAC3B;;AAEA;EACE,WAAW;EACX,6BAA6B;EAC7B,mCAAmC;AACrC;;AAEA;EACE,2BAA2B;EAC3B,uCAAuC;EACvC,iBAAiB;AACnB","sourcesContent":["/* ------------------ NAV STYLES--------------------------- */\n.navbar {\n  background-color: var(--primary-color);\n  width: 100%;\n}\n\n.navbar ul {\n  display: flex;\n  align-items: center;\n  list-style: none;\n  justify-content: center;\n}\n\n.navbar ul li {\n  display: grid;\n  align-items: center;\n  width: calc(100% / 4);\n  text-align: center;\n}\n\n.navbar ul li a {\n  font-weight: bold;\n  text-decoration: none;\n  background-color: var(--primary-color);\n  padding: 10px 30px;\n  color: var(--seconday-color);\n  transition: all 0.3s ease;\n}\n\n.navbar ul li a:hover {\n  color: #000;\n  background: var(--gold-color);\n  transform: rotate(-1deg) scale(1.2);\n}\n\n.navbar ul li a.active {\n  color: var(--primary-color);\n  background-color: var(--seconday-color);\n  font-weight: bold;\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "/* ------------------ NAV STYLES--------------------------- */\n.navbar {\n  background-color: var(--primary-color);\n  width: 100%;\n}\n\n.navbar ul {\n  display: flex;\n  align-items: center;\n  list-style: none;\n  justify-content: center;\n}\n\n.navbar ul li {\n  display: grid;\n  align-items: center;\n  text-align: center;\n  width: calc(100% / 4);\n}\n\n.navbar ul li a {\n  font-weight: bold;\n  text-decoration: none;\n  background-color: var(--primary-color);\n  padding: 10px;\n  color: var(--seconday-color);\n  transition: all 0.3s ease;\n}\n\n.navbar ul li a:hover {\n  color: #000;\n  background: var(--gold-color);\n  transform: rotate(-1deg) scale(1.2);\n}\n\n.navbar ul li a.active {\n  color: var(--primary-color);\n  background-color: var(--seconday-color);\n  font-weight: bold;\n}\n", "",{"version":3,"sources":["webpack://./src/styles/navbar.css"],"names":[],"mappings":"AAAA,6DAA6D;AAC7D;EACE,sCAAsC;EACtC,WAAW;AACb;;AAEA;EACE,aAAa;EACb,mBAAmB;EACnB,gBAAgB;EAChB,uBAAuB;AACzB;;AAEA;EACE,aAAa;EACb,mBAAmB;EACnB,kBAAkB;EAClB,qBAAqB;AACvB;;AAEA;EACE,iBAAiB;EACjB,qBAAqB;EACrB,sCAAsC;EACtC,aAAa;EACb,4BAA4B;EAC5B,yBAAyB;AAC3B;;AAEA;EACE,WAAW;EACX,6BAA6B;EAC7B,mCAAmC;AACrC;;AAEA;EACE,2BAA2B;EAC3B,uCAAuC;EACvC,iBAAiB;AACnB","sourcesContent":["/* ------------------ NAV STYLES--------------------------- */\n.navbar {\n  background-color: var(--primary-color);\n  width: 100%;\n}\n\n.navbar ul {\n  display: flex;\n  align-items: center;\n  list-style: none;\n  justify-content: center;\n}\n\n.navbar ul li {\n  display: grid;\n  align-items: center;\n  text-align: center;\n  width: calc(100% / 4);\n}\n\n.navbar ul li a {\n  font-weight: bold;\n  text-decoration: none;\n  background-color: var(--primary-color);\n  padding: 10px;\n  color: var(--seconday-color);\n  transition: all 0.3s ease;\n}\n\n.navbar ul li a:hover {\n  color: #000;\n  background: var(--gold-color);\n  transform: rotate(-1deg) scale(1.2);\n}\n\n.navbar ul li a.active {\n  color: var(--primary-color);\n  background-color: var(--seconday-color);\n  font-weight: bold;\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -1077,7 +1077,7 @@ function createAbout() {
   section.id = 'about';
 
   const h2 = document.createElement('h2');
-  h2.textContent = 'About Our Resturant';
+  h2.textContent = 'About Our Restaurant';
   section.appendChild(h2);
 
   const description = document.createElement('div');
@@ -1308,11 +1308,11 @@ function createHeader() {
   header.id = 'header';
 
   const img = document.createElement('img');
-  img.alt = 'Best Resurant Ever';
+  img.alt = 'Best Restaurant Ever';
   img.src = _assets_restLogo_png__WEBPACK_IMPORTED_MODULE_1__;
 
   const h1 = document.createElement('h1');
-  h1.textContent = 'Best Resurant Ever';
+  h1.textContent = 'Best Restaurant Ever';
 
   header.appendChild(img);
   header.appendChild(h1);
@@ -1345,7 +1345,7 @@ function createHomePage() {
   section.id = 'hero';
 
   const header1 = document.createElement('h2');
-  header1.textContent = 'Welcome to The Best Resturant Ever';
+  header1.textContent = 'Welcome to The Best Restaurant Ever';
   section.appendChild(header1);
 
   const img = document.createElement('img');
@@ -1354,7 +1354,7 @@ function createHomePage() {
   section.append(img);
 
   const header2 = document.createElement('h2');
-  header2.textContent = 'The best resturant in the area';
+  header2.textContent = 'The best restaurant in the area';
   section.append(header2);
 
   const para = document.createElement('p');
