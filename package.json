@@ -1,7 +1,7 @@
 {
   "name": "resturant-page",
   "version": "1.0.0",
-  "description": "dynamically rendered simple resturant homepage using Javascript an css",
+  "description": "dynamically rendered simple restaurant homepage using Javascript an css",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
