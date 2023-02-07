@@ -14,15 +14,15 @@
 .navbar ul li {
   display: grid;
   align-items: center;
-  width: calc(100% / 4);
   text-align: center;
+  width: calc(100% / 4);
 }
 
 .navbar ul li a {
   font-weight: bold;
   text-decoration: none;
   background-color: var(--primary-color);
-  padding: 10px 30px;
+  padding: 10px;
   color: var(--seconday-color);
   transition: all 0.3s ease;
 }
