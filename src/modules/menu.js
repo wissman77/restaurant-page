@@ -55,9 +55,9 @@ function createMenu() {
     const card = document.createElement('div');
     card.classList.add('card');
 
-    const h2 = document.createElement('h2');
-    h2.textContent = food.name;
-    card.appendChild(h2);
+    const h3 = document.createElement('h3');
+    h3.textContent = food.name;
+    card.appendChild(h3);
 
     const img = document.createElement('img');
     img.alt = food.name;
