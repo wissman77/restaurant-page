@@ -5,7 +5,7 @@ function createAbout() {
   section.id = 'about';
 
   const h2 = document.createElement('h2');
-  h2.textContent = 'About Our Resturant';
+  h2.textContent = 'About Our Restaurant';
   section.appendChild(h2);
 
   const description = document.createElement('div');

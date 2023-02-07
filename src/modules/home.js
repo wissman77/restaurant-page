@@ -6,7 +6,7 @@ function createHomePage() {
   section.id = 'hero';
 
   const header1 = document.createElement('h2');
-  header1.textContent = 'Welcome to The Best Resturant Ever';
+  header1.textContent = 'Welcome to The Best Restaurant Ever';
   section.appendChild(header1);
 
   const img = document.createElement('img');
@@ -15,7 +15,7 @@ function createHomePage() {
   section.append(img);
 
   const header2 = document.createElement('h2');
-  header2.textContent = 'The best resturant in the area';
+  header2.textContent = 'The best restaurant in the area';
   section.append(header2);
 
   const para = document.createElement('p');

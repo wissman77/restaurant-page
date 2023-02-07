@@ -6,11 +6,11 @@ function createHeader() {
   header.id = 'header';
 
   const img = document.createElement('img');
-  img.alt = 'Best Resurant Ever';
+  img.alt = 'Best Restaurant Ever';
   img.src = logo;
 
   const h1 = document.createElement('h1');
-  h1.textContent = 'Best Resurant Ever';
+  h1.textContent = 'Best Restaurant Ever';
 
   header.appendChild(img);
   header.appendChild(h1);
