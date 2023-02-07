@@ -6,7 +6,7 @@
   align-items: center;
   justify-content: center;
   gap: 50px;
-  padding-bottom: 50px;
+  padding: 50px 10px;
 }
 
 .contact-us-details {
@@ -32,6 +32,11 @@
   margin-top: 30px;
   border: 1px solid gray;
   border-collapse: collapse;
+}
+
+.address a {
+  text-decoration: none;
+  color: gray;
 }
 
 .opening-hours th {
