@@ -4,6 +4,7 @@ import salad from '../assets/salad.jpg';
 import spaghetti from '../assets/spaghetti.jpg';
 import schnitzel from '../assets/schnitzel.jpg';
 import pizza from '../assets/pizza.jpg';
+import steak from '../assets/steak.jpg';
 
 const foods = [
   {
@@ -30,6 +31,12 @@ const foods = [
     name: 'Pizza',
     price: 10,
     image: pizza,
+  },
+
+  {
+    name: 'Steak',
+    price: 50,
+    image: steak,
   },
 ];
 
@@ -65,8 +72,10 @@ function createMenu() {
     para.textContent = `The Best ${food.name} Ever.`;
     card.appendChild(para);
 
-    section.appendChild(card);
+    menuPanel.appendChild(card);
   });
+
+  section.appendChild(menuPanel);
 
   return section;
 }
