@@ -9,6 +9,7 @@ const links = [
 ];
 
 function selectTab(e) {
+  e.preventDefault();
   const links = document.querySelectorAll('.navbar a');
   links.forEach((link) => link.classList.remove('active'));
   e.target.classList.add('active');
