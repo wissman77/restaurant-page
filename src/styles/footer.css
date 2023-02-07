@@ -1,0 +1,17 @@
+/* ------------------ FOOTER STYLES--------------------------- */
+
+footer {
+  background-color: var(--primary-color);
+  color: var(--seconday-color);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  font-size: 0.8rem;
+}
+
+footer a {
+  color: #929191;
+  text-decoration: none;
+}
