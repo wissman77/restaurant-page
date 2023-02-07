@@ -18,6 +18,11 @@
   height: 70vh;
 }
 
+.description h3 {
+  margin-top: 20px;
+  border-bottom: 3px solid rgba(252, 250, 135, 0.7);
+}
+
 .description p::first-letter {
   color: var(--gold-color);
   font-size: 2rem;
