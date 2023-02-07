@@ -1,5 +1,5 @@
 import '../styles/navbar.css';
-import { mainModule } from '../index';
+import mainModule from '../index';
 
 const links = [
   { href: '#home', text: 'Home' },
