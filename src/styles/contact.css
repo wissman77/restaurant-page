@@ -9,6 +9,10 @@
   padding: 50px 10px;
 }
 
+#contact h3 {
+  text-align: center;
+}
+
 .contact-us-details {
   display: flex;
   align-items: start;
