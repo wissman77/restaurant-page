@@ -6,7 +6,7 @@ import schnitzel from '../assets/schnitzel.jpg';
 import pizza from '../assets/pizza.jpg';
 import steak from '../assets/steak.jpg';
 
-const foods = [
+const dishes = [
   {
     name: 'Burger',
     price: 35,
@@ -45,31 +45,31 @@ function createMenu() {
   section.id = 'menu';
 
   const h2 = document.createElement('h2');
-  h2.textContent = 'Our Food';
+  h2.textContent = 'Our Dishes';
   section.appendChild(h2);
 
   const menuPanel = document.createElement('div');
   menuPanel.classList.add('menu-panel');
 
-  foods.forEach((food) => {
+  dishes.forEach((dish) => {
     const card = document.createElement('div');
     card.classList.add('card');
 
     const h3 = document.createElement('h3');
-    h3.textContent = food.name;
+    h3.textContent = dish.name;
     card.appendChild(h3);
 
     const img = document.createElement('img');
-    img.alt = food.name;
-    img.src = food.image;
+    img.alt = dish.name;
+    img.src = dish.image;
     card.appendChild(img);
 
     const h4 = document.createElement('h4');
-    h4.textContent = `Price: ${food.price}$`;
+    h4.textContent = `Price: ${dish.price}$`;
     card.appendChild(h4);
 
     const para = document.createElement('p');
-    para.textContent = `The Best ${food.name} Ever.`;
+    para.textContent = `The Best ${dish.name} Ever.`;
     card.appendChild(para);
 
     menuPanel.appendChild(card);
