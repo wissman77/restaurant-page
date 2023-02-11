@@ -1266,7 +1266,7 @@ function createFooter() {
   para.innerHTML = 'Created by &copy; Wissman77 &nbsp;';
   const anchor = document.createElement('a');
   anchor.textContent = 'SourceCode';
-  anchor.href = 'https://github.com/wissman77/resturant-page';
+  anchor.href = 'https://github.com/wissman77/restaurant-page';
   anchor.target = '_blank';
   para.appendChild(anchor);
   footer.appendChild(para);
